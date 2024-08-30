@@ -11,8 +11,8 @@ import 'package:flutter/material.dart';
 Widget build(BuildContext context){
    return Scaffold(
    backgroundColor: Theme.of(context).colorScheme.background,
-   appBar:AppBar (title:Text("PLAYLIST")),
-   drawer: Drawer(),
+   appBar:AppBar (title: const Text("PLAYLIST")),
+   drawer: const Drawer(),
    );
 }
   }

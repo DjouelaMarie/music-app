@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../pages/settings_page.dart';
+
 class MyDrawer extends StatelessWidget {
   const MyDrawer({super.key});
 
@@ -37,7 +39,7 @@ class MyDrawer extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SettingsPage(),
+                      builder: (context) => SettingsPage (),
                     ),
                   );
                 },
